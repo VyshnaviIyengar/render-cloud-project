@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Website - Home</title>
+  <style>
+    /* Reset default browser styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+	header {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox to align items horizontally */
+}
+
+nav ul li {
+  margin-right: 15px; /* Add spacing between items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+    .hero-section {
+      background-image: url('background.jpg');
+      background-size: cover; /* Adjusts the background image to cover the entire element */
+      background-repeat: no-repeat; /* Prevents image from repeating */
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .hero-text {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .hero-text h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+<header>
+ <h1>Welcome to Your Recipe Hub!</h1>
+    <nav>
+      <ul>
+        
+        <li><a href="recipe.html">Recipes</a></li>
+        <li><a href="about.html">About</a></li>
+		<li><a href="nutrition.html">Nutrition Value</a></li>
+		<!-- Link in about.html to navigate back to the homepage -->
+       <li> <a href="home1.html">Home</a></li>
+	  
+      
+
+        <!-- Other navigation links as needed -->
+      </ul>
+    </nav>
+  </header>
+
+
+  <div class="hero-section">
+    <div class="hero-text">
+      <h1>Welcome to Delicious Recipes</h1>
+      <p>Explore the art of cooking and indulge in culinary delights</p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Vyshnavi. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>

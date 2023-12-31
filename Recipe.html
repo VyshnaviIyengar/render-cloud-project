@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Recipe Hub - Recipes</title>
+  <style>
+    /* Reset default browser styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    /* Recipe Cards */
+    .recipe-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .recipe-card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 15px;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .recipe-card img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .recipe-card h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .recipe-card p {
+      font-size: 1.1em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+   <h1>Welcome to Your Recipe Hub!</h1>
+    <nav>
+      <ul>
+        <li><a href="home1.html">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="about.html">About</a></li>
+		<li><a href="nutrition.html" style="font-weight: bold;">Nutrition Value</a></li>
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+  </header>
+
+  <div class="recipe-container">
+    <div class="recipe-card">
+      <img src="pumpkin.jpg" alt="Recipe 1">
+      <h2>Pumpkin Soup </h2>
+       <p><strong>Ingredients:</strong></p>
+      <ul>
+        <li>2 lbs (900g) pumpkin, peeled and cubed</li>
+        <li>1 onion, chopped</li>
+        <li>2 cloves garlic, minced</li>
+        <li>4 cups (1 liter) vegetable broth</li>
+        <li>1/2 teaspoon ground nutmeg</li>
+        <li>Salt and pepper to taste</li>
+        <li>1/2 cup (120ml) heavy cream (optional)</li>
+      </ul>
+      <p><strong>Preparation Time:</strong> 40 minutes</p>
+      <p><strong>Instructions:</strong></p>
+      <ol>
+        <li>In a large pot, sauté the onion and garlic until soft.</li>
+        <li>Add the cubed pumpkin, vegetable broth, nutmeg, salt, and pepper.</li>
+        <li>Cover and simmer for 25-30 minutes until the pumpkin is tender.</li>
+        <li>Use an immersion blender to puree the soup until smooth.</li>
+        <li>If using heavy cream, stir it in and simmer for an additional 5 minutes.</li>
+        <li>Adjust seasoning as needed and serve hot.</li>
+      </ol>
+    </div>
+      
+    <!-- Chocolate Brownie Recipe Card -->
+    <div class="recipe-card chocolate-brownie">
+      <img src="brownie.jpg" alt="Chocolate Brownie">
+      <h2>Chocolate Brownie</h2>
+      <p><strong>Ingredients:</strong></p>
+      <ul>
+        <li>1 cup (225g) unsalted butter</li>
+        <li>1 and 1/4 cups (250g) granulated sugar</li>
+        <li>3/4 cup (75g) unsweetened cocoa powder</li>
+        <li>1 teaspoon vanilla extract</li>
+        <li>1/4 teaspoon salt</li>
+        <li>2 large eggs</li>
+        <li>1/2 cup (60g) all-purpose flour</li>
+        <li>1 cup (175g) semi-sweet chocolate chips</li>
+      </ul>
+      <p><strong>Preparation Time:</strong> 45 minutes</p>
+      <p><strong>Instructions:</strong></p>
+      <ol>
+        <li>Preheat oven to 350°F (175°C). Grease and flour a 9x9 inch baking pan.</li>
+        <li>Melt the butter in a large bowl in the microwave or on the stove.</li>
+        <li>Stir in sugar, cocoa powder, vanilla, and salt into the melted butter.</li>
+        <li>Beat in the eggs, one at a time, until well combined.</li>
+        <li>Slowly fold in the flour until just combined, then stir in the chocolate chips.</li>
+        <li>Pour the batter into the prepared pan and spread it evenly.</li>
+        <li>Bake for 25-30 minutes or until a toothpick inserted into the center comes out with moist crumbs, but not wet batter.</li>
+        <li>Cool completely in the pan on a wire rack before cutting into squares.</li>
+        <li>Serve and enjoy!</li>
+      </ol>
+    </div>
+	 <div class="recipe-card tomato-soup">
+      <img src="tomato.jpg" alt="Tomato Soup">
+      <h2>Tomato Soup</h2>
+      <p><strong>Ingredients:</strong></p>
+      <ul>
+        <li>2 lbs (900g) fresh tomatoes, chopped</li>
+        <li>1 onion, chopped</li>
+        <li>2 cloves garlic, minced</li>
+        <li>2 cups (480ml) vegetable broth</li>
+        <li>2 tablespoons olive oil</li>
+        <li>1 teaspoon dried basil</li>
+        <li>1/2 teaspoon dried oregano</li>
+        <li>Salt and pepper to taste</li>
+        <li>1/4 cup (60ml) heavy cream (optional)</li>
+        <li>Fresh basil leaves for garnish</li>
+      </ul>
+      <p><strong>Preparation Time:</strong> 35 minutes</p>
+      <p><strong>Instructions:</strong></p>
+      <ol>
+        <li>In a large pot, heat the olive oil over medium heat.</li>
+        <li>Add the chopped onion and garlic, sauté until soft.</li>
+        <li>Add the chopped tomatoes, dried basil, dried oregano, salt, and pepper. Cook for about 15 minutes until tomatoes are softened.</li>
+        <li>Stir in the vegetable broth and let the mixture simmer for another 10-15 minutes.</li>
+        <li>Use an immersion blender to puree the soup until smooth.</li>
+        <li>If using heavy cream, stir it in and simmer for an additional 5 minutes.</li>
+        <li>Adjust seasoning as needed, garnish with fresh basil leaves, and serve hot.</li>
+      </ol>
+    </div>
+	<div class="recipe-card paneer-butter-masala">
+      <img src="paneer.jpg" alt="Paneer Butter Masala">
+      <h2>Paneer Butter Masala</h2>
+      <p><strong>Ingredients:</strong></p>
+      <ul>
+        <li>200g paneer, cubed</li>
+        <li>2 tablespoons butter</li>
+        <li>1 onion, finely chopped</li>
+        <li>2 tomatoes, pureed</li>
+        <li>1-inch ginger, grated</li>
+        <li>3-4 cloves garlic, minced</li>
+        <li>1/2 teaspoon red chili powder</li>
+        <li>1 teaspoon coriander powder</li>
+        <li>1/2 teaspoon garam masala</li>
+        <li>1/4 cup (60ml) heavy cream</li>
+        <li>Fresh coriander leaves for garnish</li>
+        <li>Salt to taste</li>
+      </ul>
+      <p><strong>Preparation Time:</strong> 40 minutes</p>
+      <p><strong>Instructions:</strong></p>
+      <ol>
+        <li>Heat butter in a pan, add chopped onion, ginger, and garlic. Sauté until golden brown.</li>
+        <li>Add the pureed tomatoes, red chili powder, coriander powder, garam masala, and salt. Cook until oil separates.</li>
+        <li>Add paneer cubes and mix gently. Simmer for 5-7 minutes.</li>
+        <li>Stir in the heavy cream and cook for another 2-3 minutes.</li>
+        <li>Garnish with fresh coriander leaves and serve hot with naan or rice.</li>
+      </ol>
+    </div>
+	<div class="recipe-card naan-pizza">
+      <img src="naanpizza.jpg" alt="Naan Pizza">
+      <h2>Naan Pizza</h2>
+      <p><strong>Ingredients:</strong></p>
+      <ul>
+        <li>2 pieces of naan bread</li>
+        <li>1/2 cup (120ml) pizza sauce</li>
+        <li>1 cup (120g) shredded mozzarella cheese</li>
+        <li>Assorted toppings (e.g., sliced bell peppers, onions, olives, mushrooms, etc.)</li>
+        <li>1 tablespoon olive oil</li>
+        <li>Fresh basil leaves for garnish</li>
+        <li>Salt and pepper to taste</li>
+      </ul>
+      <p><strong>Preparation Time:</strong> 15 minutes</p>
+      <p><strong>Instructions:</strong></p>
+      <ol>
+        <li>Preheat oven to 400°F (200°C).</li>
+        <li>Place naan bread on a baking sheet. Spread pizza sauce evenly over each naan bread.</li>
+        <li>Sprinkle shredded mozzarella cheese over the sauce.</li>
+        <li>Add assorted toppings as desired. Season with salt and pepper.</li>
+        <li>Drizzle olive oil over the toppings.</li>
+        <li>Bake in the preheated oven for 10-12 minutes or until the cheese is melted and bubbly.</li>
+        <li>Remove from the oven, garnish with fresh basil leaves, slice, and serve hot.</li>
+      </ol>
+    </div>
+	 <div class="recipe-card guacamole">
+      <img src="guacamole.jpg" alt="Guacamole">
+      <h2>Guacamole</h2>
+      <p><strong>Ingredients:</strong></p>
+      <ul>
+        <li>2 ripe avocados, peeled and pitted</li>
+        <li>1 tomato, diced</li>
+        <li>1/4 cup (60ml) red onion, finely chopped</li>
+        <li>1/4 cup (15g) fresh cilantro, chopped</li>
+        <li>1 jalapeño pepper, seeded and minced (optional)</li>
+        <li>1 lime, juiced</li>
+        <li>1/2 teaspoon cumin powder</li>
+        <li>Salt and pepper to taste</li>
+        <li>Tortilla chips or vegetable sticks for serving</li>
+      </ul>
+      <p><strong>Preparation Time:</strong> 15 minutes</p>
+      <p><strong>Instructions:</strong></p>
+      <ol>
+        <li>Mash the avocados in a bowl using a fork or potato masher.</li>
+        <li>Add diced tomato, chopped red onion, minced jalapeño (if using), and chopped cilantro to the mashed avocados.</li>
+        <li>Squeeze lime juice over the mixture and sprinkle with cumin powder, salt, and pepper.</li>
+        <li>Gently mix all ingredients until well combined.</li>
+        <li>Adjust seasoning if needed and serve immediately with tortilla chips or vegetable sticks.</li>
+      </ol>
+    </div>
+          <div>
+		  <footer>
+    <p>&copy; 2023 Vyshnavi. All rights reserved.</p>
+  </footer>
+  <!-- Additional recipes or content can be added here -->
+
+</body>
+</html>
